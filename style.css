@@ -1,6 +1,6 @@
 * { box-sizing: border-box; }
 
-/* FlipBook */
+/* flipbook */
 
 body {
   /* or any other parent wrapper */
@@ -19,7 +19,7 @@ body {
   display: flex;
   margin: auto;
   width: 40cqmin;
-  /*1* let pointer event go trough pages of lower Z than .book */
+  /*1* let pointer event go trough pages of lower z than .book */
   pointer-events: none;
   transform-style: preserve-3d;
   transition: translate 1s;
@@ -29,7 +29,7 @@ body {
 }
 
 .page {
-  /*  Don't go below thickness 0.5 or the pages might transpare */
+  /*  don't go below thickness 0.5 or the pages might transpare */
   --thickness: 4;
   flex: none;
   display: flex;
@@ -56,7 +56,7 @@ body {
   backface-visibility: hidden;
   overflow: hidden;
   background-color: #fff;
-  /* Fix backface visibility Firefox: */
+  /* fix backface visibility : */
   translate: 0px;
 }
 
