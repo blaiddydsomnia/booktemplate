@@ -127,6 +127,6 @@ body {
 
 .cover {
   background: radial-gradient(circle farthest-corner at 80% 20%, hsl(150 80% 20% / .3) 0%, hsl(170 60% 10% / .1) 100%),
-    hsl(231, 32%, 29%) url("https://preview.redd.it/does-anyone-have-pictures-of-usagi-studying-or-doing-v0-vs66uvy7krsd1.jpeg?width=640&format=pjpg&auto=webp&s=57f75b280f3b4729fd5c2a03c4d0ce4481fc68f2") 50% / cover;
+    hsl(231, 32%, 29%) url("https://i.pinimg.com/736x/ec/19/1a/ec191adb21e2c777ef452bd6c0f63ee5.jpg") 50% / cover;
   color: hsl(200 30% 98%);
 }
